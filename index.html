@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Website</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="icon" type="image/x-icon" href="./assets/anime7-website-favicon-color.png">
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="./assets/ANIME CLIPS FOR EDITING 4K_Trim.mp4" type="video/mp4">
+    </video>
+    <button class="unmute-btn" onclick="toggleMute()">Unmute</button>
+
+    <div class="navbar">
+        <img src="./assets/anime7-low-resolution-logo-white-on-transparent-background.png" alt="Logo" class="logo">
+        <div class="search-bar">
+            <button class="search-btn" ><a class="search_link" href="Search/search.html"><box-icon name='search-alt-2' color='#fdfafa' ></box-icon></a></button>
+        </div>
+        <div class="navbar-right">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Blogs</a>
+            
+        </div>
+        
+    </div>
+
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>Here you can find all the information you need about...</p>
+        <!-- <div class="search-bar">
+            
+            <button class="search-btn" ><a class="search_link" href="Search/search.html"> Search Here </a></button>
+        </div> -->
+        <a class="explore_link" href="./Explore/Explore.html"><button class="explore-btn" >Explore</button></a>
+    </div>
+    <div id="searchResults"></div>
+
+
+    <script src="./script.js"></script>
+</body>
+
+</html>

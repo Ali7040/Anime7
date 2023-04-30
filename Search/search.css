@@ -1,0 +1,84 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #191a1e;
+  }
+  
+  /* Header styles */
+  header {
+    margin: 10px;
+    height: 100vh;
+  }
+  
+  header h1 {
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 30vh;
+    
+  }
+  
+  /* Search container styles */
+  .search-container {
+    text-align: center;
+    margin-top: 5vh;
+  }
+  
+  .search-container input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .search-container button {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Results container styles */
+  .results-container {
+    margin-top: 5vh;
+  }
+  
+  .anime-card {
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 5px;
+    margin-bottom: 2vh;
+    padding: 2vh;
+  }
+  
+  .anime-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .anime-card h3 {
+    margin-top: 0;
+    margin-bottom: 1vh;
+  }
+  
+  .anime-card p {
+    margin-top: 0;
+    margin-bottom: 1vh;
+  }
+  .logo{
+    height: 60px;
+    width: 280px;
+  }
+  .heading{
+    padding: 20px;
+  }
+  .result-title{
+    padding: 20px;
+  }
+  p{
+    padding: 20px;
+  }

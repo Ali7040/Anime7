@@ -1,4 +1,5 @@
 # Anime7
+## create in simple HTML CSS and JS.
 ### This website provide info about Anime. 
 ### Still adding some new features.
 
